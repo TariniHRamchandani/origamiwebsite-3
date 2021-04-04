@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">More</div>
+    <div class="w3-center w3-padding-16">My Origami Website</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <a href="https://www.origami-tutorial.com/origami-alpaca.html"> <img src="alpaca.jpg" alt="Alpaca" style="width:100%"></a>
+      <h3>Alpaca</h3>
+      <p>The alpaca is a species of South American camelid mammal. It is similar to, and often confused with, the llama.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.paperkawaii.com/category/all-origami/origami-flowers/"><img src="flower.jpg" alt="flower" style="width:100%"></a>
+      <h3>flower</h3>
+      <p>flowers have long been admired and used by humans to bring beauty to their environment, and also as objects of romance, ritual, religion, medicine and as a source of food.</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://origami.me/camel/"><img src="camel.jpg" alt="Cherries" style="width:100%"></a>
+      <h3>Camel</h3>
+      <p>A camel is an even-toed ungulate in the genus Camelus that bears distinctive fatty deposits known as "humps" on its back. Camels have long been domesticated and, as livestock, they provide food and textiles.</p>
+          </div>
+    <div class="w3-quarter">
+      <a href="https://origami.me/chameleon/"><img src="chameleon.jpg" alt="chameleon" style="width:100%"></a>
+      <h3>chameleon</h3>
+      <p>Chameleons or chamaeleons are a distinctive and highly specialized clade of Old World lizards with 202 species described as of June 2015. These species come in a range of colors, and many species have the ability to change color.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="https://origami.me/pigeon/"><img src="pigeon.jpg" alt="Popsicle" style="width:100%"></a>
+      <h3>Pigeon</h3>
+      <p>Columbidae is a bird family consisting of pigeons and doves. It is the only family in the order Columbiformes. These are stout-bodied birds with short necks, and short slender bills that in some species feature fleshy ceres. They primarily feed on seeds, fruits, and plants.</p>
+    </div>
+ 
+
+<!-- End page content -->
+</div>
+
+
+
+</body>
+</html>
